@@ -47,5 +47,6 @@ smpy.send_gmail(...)
 ```py
 import sendemailpy3 as smpy
 
-email_sender = EmailSender()
+email_sender = smpy.EmailSender()
 email.send_gmail(...)
+```
